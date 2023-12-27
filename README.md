@@ -8,26 +8,26 @@
 - **vehicles** - информация о пострадавших машинах
 ## Описание данных
 - **collisions**
-  - case_id
-  - county_city_location
-  - county_location
-  - distance
-  - direction
-  - intersection
-  - weather
-  - location_type
-  - collision_damage
-  - party_count
-  - primary_collision_factor
-  - pcf_violation_category
-  - type_of_collision
-  - motor_vehicle_involved_with
-  - road_surface
-  - road_condition
-  - lighting
-  - control_device
-  - collision_time
-  - collision_date
+  - case_id - идентификационный номер в базе данных
+  - county_city_location - номер географических районов, где произошло дтп
+  - county_location - названия географических районов, где произошло дтп
+  - distance - расстояние от главной дороги (метры)
+  - direction - направление движения
+  - intersection - является ли место происшествия перекрестком
+  - weather - погода в момент происшествия
+  - location_type - тип дороги
+  - collision_damage - серъезность происшествия
+  - party_count - количество участников
+  - primary_collision_factor - основной фактор аварии
+  - pcf_violation_category - категория нарушения
+  - type_of_collision - тип аварии
+  - motor_vehicle_involved_with - дополнительные участники дтп
+  - road_surface - дорожное покрытие
+  - road_condition - состояние дороги
+  - lighting - освещение
+  - control_device - устройство управления
+  - collision_time - время происшествия
+  - collision_date - дата происшествия
 - **parties**
   - id
   - case_id
