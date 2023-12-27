@@ -29,19 +29,19 @@
   - collision_time - время происшествия
   - collision_date - дата происшествия
 - **parties**
-  - id
-  - case_id
-  - party_number
-  - party_type
-  - at_fault
-  - insurance_premium
-  - party_sobriety
-  - party_drug_physical
-  - cellphone_in_use
+  - id - идентификационный номер участника в базе данных
+  - case_id - идентификационный номер дтп в базе данных
+  - party_number - номер участника происшествия
+  - party_type - тип участника происшествия
+  - at_fault - виновность участника
+  - insurance_premium - сумма страховки (тыс. долларов)
+  - party_sobriety - трезвость участника
+  - party_drug_physical - состояние участника: физическое или с учетом принятых лекарств
+  - cellphone_in_use - наличие телефона в автомобиле (возможности разговаривать по громкой связи)
 - **vehicles**
-  - id
-  - case_id
-  - party_number
-  - vehicle_type
-  - vehicle_transmission
-  - vehicle_age
+  - id - идентификационный номер транспортного средства в базе данных
+  - case_id - идентификационный номер происшествия в базе данных
+  - party_number - номер участника происшествия
+  - vehicle_type - тип кузова
+  - vehicle_transmission - тип кпп
+  - vehicle_age - возраст автомобиля (в годах)
